@@ -22,6 +22,8 @@ def parse_num(x: str) -> float:
 
 
 def main():
+    """Plot the correlation between the life expectancy of the population and
+    the gross domestic product of all the contries for the year 1900."""
     df_gdp_raw = load(
         "income_per_person_gdppercapita_ppp_inflation_adjusted.csv"
     )

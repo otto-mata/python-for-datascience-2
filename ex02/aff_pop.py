@@ -23,6 +23,7 @@ def parse_num(x: str) -> float:
 
 
 def main():
+    """Plot the population projection of the countries of France and Belgium"""
     df = load("population_total.csv")
     if df is None:
         exit(1)

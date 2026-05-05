@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 
 
 def main():
+    """Plot data from a CSV file representing
+    the life expectancy of the population."""
     df = load("life_expectancy_years.csv")
     if df is None:
         exit(1)
